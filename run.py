@@ -69,17 +69,14 @@ def div():
 def calculator():
     subprocess.call(["termux-tts-speak",op])
     inp = subprocess.getoutput("termux-speech-to-text")
-    if "addition" in inp:
-        print("addition")
+    print("......",str(inp))
+    if "addition" in inp:      
         add()
-    elif "substraction" in inp:
-        print("substraction")
+    elif "substraction" in inp:       
         sub()
-    elif "multiplication" in inp:
-        print("multiplication")
+    elif "multiplication" in inp:      
         mul()
-    elif "division" in inp:
-        print("division")
+    elif "division" in inp:      
         div()
 
 
