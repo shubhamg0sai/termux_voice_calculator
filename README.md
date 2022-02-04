@@ -15,7 +15,11 @@ This is. A voice based calculator by using termux api in Android
 
  apt install python -y
 
- pip install requirements.txt
+ pip install num2words
+
+ pip install subprocess
+
+ pip install word2number
 
  git clone https://github.com/shubhamg0sai/termux_voice_calculator
 
