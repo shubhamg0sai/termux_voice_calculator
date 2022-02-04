@@ -1,4 +1,0 @@
-pip install num2words
-pip install subprocess
-pip install word2number
-pip install time
