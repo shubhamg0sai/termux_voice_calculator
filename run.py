@@ -4,8 +4,8 @@ import subprocess
 from word2number import w2n
 from num2words import num2words
 
-nt1 = "speak You first number"
-nt2 = "speak You second number"
+nt1 = "speak Your first number"
+nt2 = "speak Your second number"
 op = "speak Your math operator like addition subtraction multiplication division"
 r = "the result is"
 n = 1
